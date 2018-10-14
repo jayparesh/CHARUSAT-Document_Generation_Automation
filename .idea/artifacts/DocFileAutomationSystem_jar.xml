@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DocFileAutomationSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DocFileAutomationSystem_jar</output-path>
+    <root id="archive" name="DocFileAutomationSystem.jar">
+      <element id="module-output" name="DocFileAutomationSystem" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/lib/commons-codec-1.10.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/lib/commons-logging-1.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/lib/commons-collections4-4.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/lib/junit-4.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/ooxml-lib/curvesapi-1.04.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/lib/log4j-1.2.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-examples-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-excelant-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-ooxml-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-ooxml-schemas-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/poi-scratchpad-3.17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/LIBS/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar" />
+    </root>
+  </artifact>
+</component>

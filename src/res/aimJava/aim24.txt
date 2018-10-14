@@ -1,0 +1,1 @@
+WAP to generate user defined exception using "throw" and "throws" keyword.

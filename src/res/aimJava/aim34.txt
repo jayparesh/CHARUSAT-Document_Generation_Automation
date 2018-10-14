@@ -1,0 +1,1 @@
+Write a program to increment the value of one variable by one and display it after one second using thread using sleep() method.

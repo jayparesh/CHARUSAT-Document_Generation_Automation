@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="help_page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label alignment="CENTER" prefHeight="64.0" prefWidth="300.0" text="Documentation Generation Automation">
+            <font>
+                <Font name="Cambria Math" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="18.0" text="v.1.0">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="64.0" prefHeight="42.0" prefWidth="245.0" text="Visit the below website for more information">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Hyperlink id="link" layoutX="85.0" layoutY="136.0" stylesheets="@application.css" text="www.xyz.com">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Hyperlink>
+    </children>
+</AnchorPane>

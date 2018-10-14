@@ -1,0 +1,8 @@
+Design a Custom Stack using ArrayList class, which implements following functionalities of stack.
+
+-list: ArrayList<Object>	A list to store elements.
++isEmpty(): boolean			Returns true if this stack is empty.
++getSize(): int				Returns the number of elements in this stack.
++peek(): Object				Returns the top element in this stack without removing it.
++pop(): Object				Returns and removes the top element in this stack.
++push(o: Object): void		Adds a new element to the top of this	

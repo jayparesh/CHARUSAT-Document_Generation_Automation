@@ -1,0 +1,1 @@
+Write a program to transfer data from one file to another file so that if the destination file does not exist, it is created. 

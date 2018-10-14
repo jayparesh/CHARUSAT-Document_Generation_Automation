@@ -1,0 +1,1 @@
+WAP to show use of character and byte stream. 

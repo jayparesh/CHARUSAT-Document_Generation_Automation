@@ -1,0 +1,1 @@
+WAP to read console input and write them into a file. (BufferedReader /BufferedWriter). 

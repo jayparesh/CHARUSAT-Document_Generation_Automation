@@ -1,0 +1,4 @@
+Write a program to create thread which display "Welcome to CHARUSAT!!"
+message.
+A. by extending Thread class
+B. by using Runnable interface.

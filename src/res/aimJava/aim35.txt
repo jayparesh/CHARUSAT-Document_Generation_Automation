@@ -1,0 +1,1 @@
+Write a program to create three threads FIRST, SECOND, THIRD. Set the priority of the FIRST thread to 3, the SECOND thread to 5(default) and the THIRD thread to 7.

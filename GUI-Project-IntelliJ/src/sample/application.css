@@ -1,0 +1,71 @@
+#banner{
+     -fx-background-image: url("Images/dac.png");
+}
+#banner_main_page{
+    -fx-background-color: rgb(253,253,253);
+}
+#drag_and_drop {
+    -fx-border-color: #22ad8c;
+    -fx-border-width: 4;
+    -fx-border-style: dashed , dashed , dashed , dashed;
+}
+#upload {
+    -fx-background-radius: 100;
+    -fx-border-radius: 100%;
+    -fx-border-width: 5;
+    -fx-border-color: #22ad8c;
+    -fx-background-image: url("Images/upload.png");
+    -fx-background-position: center;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+}
+#upload:hover{
+    -fx-background-color: #22ad8c;
+}
+#home{
+    -fx-background-image: url("Images/Webp.net-resizeimage.png");
+    -fx-background-color: rgb(253,253,253);
+    -fx-background-position: center;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+}
+#home:hover{
+    -fx-background-image: url("Images/y.png");
+}
+#help{
+    -fx-border-radius: 100%;
+    -fx-border-width: 2;
+    -fx-border-color: rgb(253,253,253);
+    -fx-background-image: url("Images/about.png");
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #22ad8c;
+}
+#help:hover{
+    -fx-background-color: rgb(195,176,145);
+}
+#information{
+    -fx-border-radius: 100%;
+    -fx-border-width: 2;
+    -fx-border-color: rgb(253,253,253);
+    -fx-background-image: url("Images/information.png");
+    -fx-background-radius: 100%;
+    -fx-background-position: center;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #22ad8c;
+}
+#information:hover{
+    -fx-background-color: rgb(195,176,145);
+}
+#link{
+    -fx-border-color: transparent;
+}
+#help_page{
+    -fx-background-color: rgb(253,253,253);
+}
+#information_page{
+    -fx-background-color: rgb(253,253,253);
+}

@@ -1,0 +1,1 @@
+WAP to show how to create a file with different mode and methods of File class to find path, directory etc. 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="203.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Webp.net-resizeimage.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane id="banner_main_page" layoutY="200.0" prefHeight="430.0" prefWidth="800.0" stylesheets="@application.css">
+         <children>
+            <AnchorPane id="drag_and_drop" fx:id="anchor_drop" layoutX="23.0" layoutY="23.0" prefHeight="385.0" prefWidth="755.0" stylesheets="@application.css">
+               <children>
+                  <Button id="upload" fx:id="Upload" layoutX="274.0" layoutY="135.0" mnemonicParsing="false" onAction="#button_upload" pickOnBounds="false" prefHeight="196.0" prefWidth="201.0" stylesheets="@application.css" />
+                  <Label alignment="CENTER" layoutX="152.0" layoutY="55.0" prefHeight="49.0" prefWidth="444.0" text="Drop or Click to Upload" textFill="#636363">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button id="information" fx:id="Information" layoutX="757.0" layoutY="8.0" mnemonicParsing="false" onAction="#button_information" pickOnBounds="false" prefHeight="35.0" prefWidth="35.0" stylesheets="@application.css" />
+   </children>
+</AnchorPane>
